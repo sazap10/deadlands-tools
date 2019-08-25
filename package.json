@@ -1,0 +1,32 @@
+{
+  "name": "deadlands-classic-tools",
+  "version": "1.0.0",
+  "description": "Web app for various Deadlands Classic tools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sazap10/deadlands-classic-tools.git"
+  },
+  "keywords": [
+    "deadlands",
+    "nextjs",
+    "react",
+    "webapp"
+  ],
+  "author": "Sachin Pande",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sazap10/deadlands-classic-tools/issues"
+  },
+  "homepage": "https://github.com/sazap10/deadlands-classic-tools#readme",
+  "dependencies": {
+    "next": "^9.0.5",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
