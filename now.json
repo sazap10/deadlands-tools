@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "build": {
+    "env": {
+      "BUGSNAG_SERVER_API_KEY": "@dct-bugsnag-svr-api",
+      "BUGSNAG_BROWSER_API_KEY":"@dct-bugsnag-fnt-api"
+    }
+  }
+}
