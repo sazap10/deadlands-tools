@@ -6,7 +6,8 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:mdx/recommended'
+    'plugin:mdx/recommended',
+    'plugin:react/recommended'
   ],
   overrides: [
     {
@@ -21,7 +22,8 @@ module.exports = {
   parser: "babel-eslint",
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
+      modules: true
     },
     ecmaVersion: 2018,
     sourceType: 'module'
@@ -30,5 +32,6 @@ module.exports = {
     'react'
   ],
   rules: {
+    "react/react-in-jsx-scope": 0
   }
 }
