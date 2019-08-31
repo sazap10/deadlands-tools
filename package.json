@@ -1,5 +1,5 @@
 {
-  "name": "deadlands-classic-tools",
+  "name": "deadlands-tools",
   "version": "1.0.0",
   "description": "Web app for various Deadlands Classic tools",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sazap10/deadlands-classic-tools.git"
+    "url": "git+ssh://git@github.com/sazap10/deadlands-tools.git"
   },
   "keywords": [
     "deadlands",
@@ -22,9 +22,9 @@
   "author": "Sachin Pande",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sazap10/deadlands-classic-tools/issues"
+    "url": "https://github.com/sazap10/deadlands-tools/issues"
   },
-  "homepage": "https://github.com/sazap10/deadlands-classic-tools#readme",
+  "homepage": "https://github.com/sazap10/deadlands-tools#readme",
   "dependencies": {
     "@bugsnag/js": "^6.4.0",
     "@bugsnag/plugin-react": "^6.4.0",
