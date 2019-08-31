@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Link from 'next/link'
 import {
   Generic,
@@ -56,5 +57,9 @@ const Layout = ({ children }) => {
     </Generic>
   )
 }
+
+Layout.propTypes = {
+  children: PropTypes.object.isRequired
+};
 
 export default Layout
