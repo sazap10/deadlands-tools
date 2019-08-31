@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
     <Generic>
       <Navbar fixed='top' color='primary'>
         <Navbar.Brand>
-          <Navbar.Item href='#'>Deadlands Classic Tools</Navbar.Item>
+          <Navbar.Item href='#'>Deadlands Tools</Navbar.Item>
           <Navbar.Burger />
         </Navbar.Brand>
         <Navbar.Menu>
@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
       </Container>
       <Footer>
         <Content textAlign='centered'>
-          <strong>Deadlands Classic Tools</strong> by <a href="https://github.com/sazap10">Sachin Pande</a>.
+          <strong>Deadlands Tools</strong> by <a href="https://github.com/sazap10">Sachin Pande</a>.
           The source code is released under the{' '}
           <a href="https://opensource.org/licenses/mit-license.php">
             MIT License
