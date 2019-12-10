@@ -11,16 +11,17 @@ const config = {
   target: 'serverless',
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   env: {
-    BUGSNAG_API_KEY: process.env.BUGSNAG_API_KEY
+    BUGSNAG_API_KEY: process.env.BUGSNAG_API_KEY,
+    APP_VERSION: process.env.npm_package_version
   },
   webpack(config) {
-    config.plugins.push(
-      new BugsnagSourceMapUploaderPlugin({
-        apiKey: process.env.BUGSNAG_API_KEY,
-        appVersion: process.env.npm_package_version,
-        publicPath: 'http://localhost:3000/_next/'
-      })
-    )
+    // config.plugins.push(
+    //   new BugsnagSourceMapUploaderPlugin({
+    //     apiKey: process.env.BUGSNAG_API_KEY,
+    //     appVersion: process.env.npm_package_version,
+    //     publicPath: 'http://localhost:3000/_next'
+    //   })
+    // )
     return config
   }
 }
