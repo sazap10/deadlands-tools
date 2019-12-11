@@ -20,5 +20,6 @@ jobs:
     - name: Deploy
       run: |
         ARGS=""
-        [ "$VERSION" == "master" ] && ARGS="--prod"
+        REF=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+        [ "$REF" == "master" ] && ARGS="--prod"
         now $ARGS --no-clipboard --token ${{ secrets.NOW_TOKEN }}
