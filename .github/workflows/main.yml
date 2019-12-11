@@ -18,6 +18,7 @@ jobs:
       run: npm run lint
 
     - name: Deploy
-      uses: actions/zeit-now@master
-      env:
-        ZEIT_TOKEN: ${{ secrets.NOW_TOKEN }}
+      run: |
+        ARGS=""
+        [ "$VERSION" == "master" ] && ARGS="--prod"
+        now $ARGS --no-clipboard --token ${{ secrets.NOW_TOKEN }}
