@@ -20,5 +20,5 @@ jobs:
     - name: Deploy
       run: |
         ARGS=""
-        [ "$VERSION" == "master" ] && ARGS="--prod"
+        [ "${{ github.ref }}" == "master" ] && ARGS="--prod"
         now $ARGS --no-clipboard --token ${{ secrets.NOW_TOKEN }}
