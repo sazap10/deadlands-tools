@@ -28,7 +28,7 @@
   "dependencies": {
     "@bugsnag/js": "6.5.0",
     "@bugsnag/plugin-react": "6.5.0",
-    "@mdx-js/loader": "1.5.2",
+    "@mdx-js/loader": "1.5.3",
     "@next/mdx": "9.1.6",
     "@zeit/next-sass": "1.0.1",
     "next": "9.1.6",
