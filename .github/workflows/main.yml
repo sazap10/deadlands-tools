@@ -22,4 +22,4 @@ jobs:
         ARGS=""
         REF=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
         [ "$REF" == "master" ] && ARGS="--prod"
-        now $ARGS --no-clipboard --token ${{ secrets.NOW_TOKEN }}
+        now $ARGS --no-clipboard --confirm --token ${{ secrets.NOW_TOKEN }}
