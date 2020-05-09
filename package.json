@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/sazap10/deadlands-tools#readme",
   "dependencies": {
-    "@bugsnag/js": "6.5.2",
-    "@bugsnag/plugin-react": "6.5.0",
+    "@bugsnag/js": "7.0.1",
+    "@bugsnag/plugin-react": "7.0.1",
     "@next/mdx": "9.3.6",
     "@mdx-js/loader": "1.6.1",
     "@zeit/next-sass": "1.0.1",
