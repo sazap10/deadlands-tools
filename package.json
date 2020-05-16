@@ -28,10 +28,10 @@
   "dependencies": {
     "@bugsnag/js": "7.0.2",
     "@bugsnag/plugin-react": "7.0.1",
-    "@next/mdx": "9.4.0",
+    "@next/mdx": "9.4.1",
     "@mdx-js/loader": "1.6.1",
     "@zeit/next-sass": "1.0.1",
-    "next": "9.4.0",
+    "next": "9.4.1",
     "node-sass": "4.14.1",
     "rbx": "2.2.0",
     "react": "16.13.1",
