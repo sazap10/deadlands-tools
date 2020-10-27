@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "babel-eslint": "10.1.0",
-    "eslint": "7.12.0",
+    "eslint": "7.12.1",
     "eslint-config-standard": "15.0.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-mdx": "1.8.2",
