@@ -1,9 +1,0 @@
-{
-  "name": "deadlands-tools",
-  "version": 2,
-  "build": {
-    "env": {
-      "BUGSNAG_API_KEY": "@dct-bugsnag-api"
-    }
-  }
-}
